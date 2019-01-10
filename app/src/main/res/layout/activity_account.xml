@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/login2"
+    tools:context="com.nasapp.connection.account">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColorHint="#ffffff"
+        android:hint="Name"
+        android:paddingLeft="20dp"
+        android:background="@drawable/box"
+        android:id="@+id/name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/box"
+        android:textColorHint="#ffffff"
+        android:hint="User Name"
+        android:id="@+id/new_user_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="20dp"
+        android:background="@drawable/box"
+        android:hint="Password"
+        android:id="@+id/new_user_pass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:textColor="#ffffff" />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/shada"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="userReg"
+        />
+
+</LinearLayout>

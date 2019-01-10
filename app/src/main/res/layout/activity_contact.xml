@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:fitsSystemWindows="true"
+
+    tools:context="com.nasapp.varatiacom.Submit"
+    android:weightSum="1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/view5">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#7E57C1"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contact With Us"
+        android:id="@+id/textView6"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.31"
+       >
+
+
+        <RelativeLayout
+          android:layout_width="400dp"
+          android:layout_height="620dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Ashratuz Zavin Asha"
+                android:textColor="#ffffff"
+                android:paddingLeft="40dp"
+                android:id="@+id/t1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone No: 01684911591"
+                android:textColor="#ffffff"
+                android:paddingLeft="40dp"
+                android:layout_below="@+id/t1"
+                android:id="@+id/t2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:onClick="yes1"
+                android:id="@+id/button8"
+                android:background="@drawable/shada"
+                android:layout_marginTop="45dp"
+                android:layout_below="@+id/t2"
+                android:layout_alignLeft="@+id/textView33"
+                android:layout_alignStart="@+id/textView33"
+                android:layout_marginLeft="43dp"
+                android:layout_marginStart="43dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Nabila Shahnaz Khan"
+                android:textColor="#ffffff"
+                android:paddingLeft="40dp"
+                android:id="@+id/textView7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingTop="35dp"
+                android:layout_below="@+id/button8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone No: 01703255533"
+                android:textColor="#ffffff"
+                android:paddingLeft="40dp"
+                android:id="@+id/textView8"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingTop="10dp"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:layout_marginTop="35dp"
+                android:onClick="yes2"
+                android:id="@+id/button9"
+                android:background="@drawable/shada"
+                android:layout_below="@+id/textView8"
+                android:layout_alignLeft="@+id/button8"
+                android:layout_alignStart="@+id/button8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Sayma Alam Suha"
+                android:textColor="#ffffff"
+                android:paddingLeft="40dp"
+                android:id="@+id/textView29"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingTop="35dp"
+                android:layout_below="@+id/button9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone No: 01733337847"
+                android:textColor="#ffffff"
+                android:paddingLeft="2dp"
+                android:id="@+id/textView33"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingTop="10dp"
+                android:layout_below="@+id/textView29"
+                android:layout_alignRight="@+id/t2"
+                android:layout_alignEnd="@+id/t2" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:onClick="yes3"
+                android:id="@+id/button10"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/shada"
+                android:layout_below="@+id/textView33"
+                android:layout_alignLeft="@+id/button9"
+                android:layout_alignStart="@+id/button9" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

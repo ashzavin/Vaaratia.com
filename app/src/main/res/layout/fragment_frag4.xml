@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.nasapp.varatiacom.frag4">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Price Range : "
+        android:id="@+id/textView13"
+        android:padding="20dp"
+        android:textColor="#817e7e"
+        android:layout_above="@+id/textView30"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16" />
+
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16" />
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:paddingBottom="30dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3"
+        android:paddingBottom="30dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/textView30"
+        android:layout_toRightOf="@+id/spinner2"
+        android:layout_toEndOf="@+id/spinner2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Low         to           High"
+        android:id="@+id/textView30"
+        android:textColor="#406bc0"
+        android:textStyle="bold|italic"
+        android:layout_above="@+id/spinner2"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="SUbmit"
+        android:textSize="25dp"
+
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/asha"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Location :"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:id="@+id/textView16"
+        android:textColor="#817e7e"
+        android:layout_above="@+id/textView13"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="490dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/ar1"
+        android:layout_above="@+id/textView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

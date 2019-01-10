@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/login"
+    tools:context="com.nasapp.connection.Main2Activity"
+    android:weightSum="1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#7E57C1"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Form"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="User Name"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="20dp"
+        android:id="@+id/user_name"
+        android:background="@drawable/box"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textColor="#ffffff" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="20dp"
+        android:background="@drawable/box"
+        android:id="@+id/user_pass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@drawable/shada"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="userLogin"
+        />
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="430dp"
+        android:layout_height="match_parent">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here"
+            android:id="@+id/button3"
+            android:paddingLeft="20dp"
+            android:onClick="userReg"
+            android:background="@android:drawable/divider_horizontal_dim_dark"
+            android:layout_gravity="right"
+            android:paddingBottom="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_marginTop="49dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Create a new account ? "
+            android:paddingLeft="40dp"
+            android:id="@+id/textView3"
+            android:layout_alignTop="@+id/button3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

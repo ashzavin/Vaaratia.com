@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ww"
+    tools:context="com.nasapp.varatiacom.frag2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Show Results"
+        android:textSize="20dp"
+        android:id="@+id/button4"
+        android:background="@android:drawable/divider_horizontal_dim_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No saved Rentals Yet !!!"
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:textSize="30dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView4"
+        android:text="Keep track of your favorite listings "
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="by tapping heart icon...."
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textStyle="italic"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>

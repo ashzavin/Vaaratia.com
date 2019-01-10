@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#CC0033"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/icon"
+        android:layout_alignStart="@+id/icon" />
+
+   <ImageView
+        android:id="@+id/icon"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Address: "
+        android:textColor="#7E57C1"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+
+        android:paddingTop="10dp"
+        android:layout_toRightOf="@+id/t1"
+        android:text="asha"
+        android:paddingLeft="3dp"
+        android:textColor="#3399FF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:paddingLeft="10dp"
+        android:paddingTop="15sp"
+        android:text="Price: "
+        android:textColor="#7E57C1"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:paddingLeft="3dp"
+        android:paddingTop="18dp"
+        android:text="bivor"
+        android:layout_toRightOf="@+id/t2"
+        android:textColor="#3399FF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:paddingLeft="10dp"
+        android:text="No of rooms: "
+        android:textColor="#7E57C1"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:paddingTop="2sp"
+        android:text="asha"
+        android:layout_toRightOf="@+id/t3"
+        android:paddingLeft="3dp"
+        android:textColor="#3399FF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:paddingLeft="10dp"
+        android:text="Privilized Gender: "
+        android:textColor="#7E57C1"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:paddingLeft="3dp"
+        android:paddingTop="2sp"
+        android:layout_toRightOf="@+id/t4"
+        android:textColor="#3399FF"
+        android:textSize="14dp" />
+
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:paddingLeft="10dp"
+        android:text="Privilized Occupation: "
+        android:textColor="#7E57C1"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:paddingTop="2sp"
+        android:layout_toRightOf="@+id/t5"
+        android:paddingLeft="2dp"
+        android:textColor="#3399FF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5"
+        android:paddingLeft="10dp"
+        android:text="Owner's email: "
+        android:textColor="#7E57C1"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p3"
+        android:paddingTop="2sp"
+        android:layout_toRightOf="@+id/t6"
+        android:paddingLeft="2dp"
+        android:textColor="#3399FF"
+        android:textSize="14dp"
+        android:paddingBottom="10sp"/>
+
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t6"
+        android:paddingLeft="10dp"
+        android:text="Owner's Phone: "
+        android:textColor="#7E57C1"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/p5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asha"
+        android:paddingTop="2sp"
+        android:paddingLeft="2dp"
+        android:textColor="#3399FF"
+        android:textSize="14dp"
+        android:paddingBottom="10sp"
+        android:layout_alignTop="@+id/t7"
+        android:layout_toRightOf="@+id/t7"
+        android:layout_toEndOf="@+id/t5" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="New Button"
+        android:background="@android:drawable/divider_horizontal_dim_dark"
+        android:id="@+id/button"
+        android:src="@drawable/phone"
+
+        android:layout_below="@+id/p5"
+        android:layout_alignRight="@+id/t7"
+        android:layout_alignEnd="@+id/t7" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="New Button"
+        android:background="@android:drawable/divider_horizontal_dim_dark"
+        android:id="@+id/imageButton"
+        android:src="@drawable/map"
+
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_toRightOf="@+id/t4"
+        android:layout_toEndOf="@+id/t4" />
+
+
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="New Button"
+        android:background="@android:drawable/divider_horizontal_dim_dark"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/mai"
+        android:paddingBottom="10dp"
+        android:layout_alignTop="@+id/button"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton" />
+
+
+</RelativeLayout>

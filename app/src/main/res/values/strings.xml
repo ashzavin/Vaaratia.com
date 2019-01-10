@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Varatia.com</string>
+    <string name="search">Show Result</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="title_activity_favorites">Favorites</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_2">RENT</string>
+    <string name="title_activity_3">Activity3</string>
+    <string name="title_activity_4">Activity4</string>
+    <string name="title_activity_submit">Submit</string>
+    <string name="title_activity_findflat">Findflat</string>
+    <string name="title_activity_listview">Listview</string>
+    <string name="title_activity_listings">Listings</string>
+    <string name="title_activity_list_main">ListMain</string>
+    <string name="name">ListViewBaseAdapter</string>
+    <string name="image">Thumbnail</string>
+    <string name="title_activity_detail">detail</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="locations">
+
+        <item>Mirpur</item>
+        <item>Azimpur</item>
+        <item>Shahbag</item>
+        <item>Farmgate</item>
+        <item>Uttara</item>
+
+    </string-array>
+
+
+    <string-array name="low">
+
+        <item>5000</item>
+        <item>7000</item>
+
+    </string-array>
+
+
+    <string-array name="high">
+
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+
+    </string-array>
+
+    <string-array name="gender">
+
+        <item>Male</item>
+        <item>Female</item>
+        <item>Any</item>
+
+
+    </string-array>
+
+    <string-array name="occu">
+
+        <item>Job Holder</item>
+        <item>Student</item>
+        <item>Any</item>
+
+
+    </string-array>
+
+    <string name="title_activity_con">con</string>
+    <string name="title_activity_hello">hello</string>
+    <string name="title_activity_account">account</string>
+    <string name="title_activity_customer_details">CustomerDetailsActivity</string>
+    <string name="title_activity_post2">post2</string>
+    <string name="title_activity_pic">Pic</string>
+    <string name="title_activity_map">map</string>
+
+</resources>
