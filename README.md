@@ -1,3 +1,3 @@
 # Vaaratia.com
 
-This android application was developed with android studio using JAVA, XML. 
+This is an android application developed with android studio using JAVA and XML. 
